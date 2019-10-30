@@ -1,0 +1,8 @@
+CREATE DATABASE `upload` ;
+CREATE TABLE `upload`.`tbl_uploads` (
+`id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`file` VARCHAR( 100 ) NOT NULL ,
+`type` VARCHAR( 10 ) NOT NULL ,
+`size` INT NOT NULL
+) ENGINE = MYISAM 
+
